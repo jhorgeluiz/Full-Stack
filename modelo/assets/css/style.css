@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: blueviolet;
+    --cor2: #65e22b;
+    --cor3: #e22b2b;
+
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: var(--cor1);
+}
+
+h2 {
+    background-color: var(--cor2);
+}
+
+h3 {
+    color: var(--cor3);
+}
