@@ -1,9 +1,5 @@
-let pontos = 1000
-let nivel = pontos >= 1000 ? 'usuario vip' : 'usuario normal'
+// const treshoras = 60 * 60 * 3 * 1000
+// const umdia = 60 * 60 * 24 * 1000
 
-
-
-let corUsuario = 'red'
-let corPadrao = corUsuario || 'preta'
-
-console.log(nivel, corPadrao);
+const data = new Date(2024 ,9, 24, 22, 25)
+console.log(data.toString())
