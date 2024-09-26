@@ -4,7 +4,8 @@
 // const data = new Date(2024 ,9, 24, 22, 25)
 // console.log(data.toString())
 
-const data = new Date(1727228410315)
+const data = new Date(1727228410315 )
+
 console.log('dia', data.getDate())
 console.log('mes', data.getMonth() +1)  //mes começa com zero
 console.log('ano', data.getFullYear())
