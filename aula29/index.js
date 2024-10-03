@@ -1,6 +1,5 @@
-const data = new Date('1987-04-24 00:00:00');
+let data = new Date('1987-04-19 00:00:00');
 let diaSemana = data.getDay();
-console.log(diaSemana)
 let diaSemanaTexto;
 
 switch (diaSemana) {
@@ -26,3 +25,5 @@ case 6:
     diaSemanaTexto = 'sabado';
     break;
 }
+
+console.log(diaSemana, diaSemanaTexto)
