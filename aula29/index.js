@@ -1,5 +1,5 @@
 let data = new Date('1987-04-19 00:00:00');
-let diaSemana = data.getDay();
+let diaSemana = data.getDay( );
 let diaSemanaTexto;
 
 switch (diaSemana) {
