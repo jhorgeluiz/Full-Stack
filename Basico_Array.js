@@ -15,7 +15,8 @@ novo.pop()
 console.log(nomes)
 //____________________________________________________________
             SHIFT()
-//Remove o primeiro elemento de um array e retorna esse elemento. Todos os demais itens são "deslocados" para a esquerda.
+//Remove o primeiro elemento de um array
+// e retorna esse elemento. Todos os demais itens são "deslocados" para a esquerda.
 const nomes = ['Eduardo','Maria','Joana']
 const removido = nomes.shift()
 console.log(nomes, removido)
