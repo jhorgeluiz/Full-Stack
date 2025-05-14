@@ -20,7 +20,7 @@ const nomes = ['Eduardo','Maria','Joana']
 const removido = nomes.shift()
 console.log(nomes, removido)
 // ______________________________________________________________
-            O método nomes.push()
+               push()
 // Adiciona o elemento 'joao' no final do array nomes e retorna o novo tamanho do array
 const nomes = ['Eduardo','Maria','Joana']
 nomes.push('joao')
